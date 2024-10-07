@@ -1,0 +1,78 @@
+{% load static %}
+<!-- main header -->
+<header class="main-header header-one">
+
+    <div class="header-top bg-lighter py-10">
+        <div class="top-left">
+            <ul>
+                <li>Call Us: <a href="callto:548978478">548978478</a></li>
+                <li>Email us: <a href="mailto:demo@example.com">demo@example.com</a></li>
+                <li>Our address: 45 Dream street Austria</li>
+            </ul>
+        </div>
+        <div class="top-right">
+            <div class="office-time">
+                <i class="far fa-clock"></i><span>08:00 am - 06:00 pm</span>
+            </div>
+            <div class="social-style-one">
+                <a href="http://facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                <a href="http://twitter.com/"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.pinterest.com/"><i class="fab fa-pinterest-p"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!--Header-Upper-->
+    <div class="header-upper bg-white">
+        <div class="container-fluid clearfix">
+
+            <div class="header-inner d-flex align-items-center">
+                <div class="logo-outer bg-blue py-30 px-85">
+                    <div class="logo">
+                        <a href="{% url 'home' %}"><img src="{% static 'assets/images/logos/logo.png' %}" alt="Logo" title="Logo"></a>
+                    </div>
+                </div>
+
+                <div class="nav-outer clearfix d-flex align-items-center">
+                    <!-- Main Menu -->
+                    <nav class="main-menu navbar-expand-lg">
+                        <div class="navbar-header">
+                            <div class="mobile-logo bg-blue p-15">
+                                <a href="{% url 'home' %}">
+                                    <img src="{% static 'assets/images/logos/logo.png' %}" alt="Logo" title="Logo">
+                                </a>
+                            </div>
+
+                            <!-- Toggle Button -->
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+
+                        <div class="navbar-collapse collapse clearfix">
+                            <ul class="navigation onepage clearfix">
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#services">services</a></li>
+                                <li><a href="#about">about</a></li>
+                                <li><a href="#work-progress">work Step</a></li>
+                                <li><a href="#pricing">pricing</a></li>
+                                <li><a href="#news">news</a></li>
+                            </ul>
+                        </div>
+
+                    </nav>
+                    <!-- Main Menu End-->
+
+                    <!-- Menu Button -->
+                    <div class="menu-btn">
+                        <a href="{% url 'contact' %}" class="theme-btn">meet with us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Header Upper-->
+</header>

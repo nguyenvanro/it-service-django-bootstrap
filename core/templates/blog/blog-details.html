@@ -1,0 +1,226 @@
+{% extends 'base.html' %} {% load static %} {% block content %}
+
+<!-- Page Banner Start -->
+<section class="page-banner bgs-cover overlay pt-50" style="background-image: url({% static 'assets/images/banner.jpg' %});">
+    <div class="container">
+        <div class="banner-inner">
+            <h1 class="page-title">Blog Details</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="{% url 'home' %}">Restly</a></li>
+                    <li class="breadcrumb-item active">Blog Details</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+</section>
+<!-- Page Banner End -->
+
+
+<!-- Blog Details Area Start -->
+<section class="blog-details-area bg-lighter">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="blog-details-content pt-120 rpt-100 pb-95 rpb-75 pr-15 rpr-0">
+                    <div class="image wow fadeInUp delay-0-2s">
+                        <img src="{% static 'assets/images/news/blog-standard-1.jpg' %}" alt="Blog Standard">
+                    </div>
+                    <div class="blog-header">
+                        <ul class="post-meta-item mr-15">
+                            <li>
+                                <i class="far fa-user"></i>
+                                <a href="#" rel="bookmark">Daniele Custer</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-calendar-alt"></i>
+                                <a href="#">25 Jan 2022</a>
+                            </li>
+                        </ul>
+                        <div class="social-style-one">
+                            <span>Share Now</span>
+                            <a href="http://facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                            <a href="http://twitter.com/"><i class="fab fa-twitter"></i></a>
+                            <a href="https://google.com/"><i class="fab fa-google-plus-g"></i></a>
+                        </div>
+                    </div>
+                    <h3>Monthly Web Development Update Complexity Over HTTPS, And Push Notifications</h3>
+                    <p>But we ipsum dolor sit amet, consectetur adipisicing elit sed eiusmod tempor incididunt labore</p>
+                    <p>et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehendermust explain to you how all this mistaken idea of denouncing pleasure
+                        and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure
+                        itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone</p>
+                    <blockquote>
+                        Avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter con sequences that are extremely painful again anyone
+                        <span class="author">Tony R. Francois</span>
+                    </blockquote>
+                    <div class="blog-footer mb-40">
+                        <div class="popular-tags mb-15">
+                            <b>Popular Tag :</b> <a href="#">IT Services</a> <a href="#">Technology</a> <a href="#">Services</a>
+                        </div>
+                        <div class="social-style-two">
+                            <span>Share</span>
+                            <a href="http://facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                            <a href="http://twitter.com/"><i class="fab fa-twitter"></i></a>
+                            <a href="https://google.com/"><i class="fab fa-google-plus-g"></i></a>
+                            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="row wow fadeInUp delay-0-2s">
+                        <div class="col-sm-6">
+                            <a href="blog-details.html" class="next-prev-blog">
+                                <h4>Building Pub Sub Service Using Node And Redis</h4>
+                            </a>
+                        </div>
+                        <div class="col-sm-6">
+                            <a href="blog-details.html" class="next-prev-blog">
+                                <h4>Once Upon Time Use Story For Better Engagement</h4>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="comments-wrap mt-55 wow fadeInUp delay-0-2s">
+                        <h3 class="comment-title mb-55">Client’s Comments</h3>
+                        <div class="comment-item">
+                            <div class="author-image">
+                                <img src="{% static 'assets/images/news/comment-author-1.jpg' %}" alt="Author">
+                            </div>
+                            <div class="comment-details">
+                                <div class="name-date">
+                                    <h5>Alexzeder Alex</h5>
+                                    <span class="date">25 Jan 2022</span>
+                                </div>
+                                <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete</p>
+                                <a href="#" class="reply">Reply Commets</a>
+                            </div>
+                        </div>
+                        <div class="comment-item child-comment">
+                            <div class="author-image">
+                                <img src="{% static 'assets/images/news/comment-author-2.jpg' %}" alt="Author">
+                            </div>
+                            <div class="comment-details">
+                                <div class="name-date">
+                                    <h5>John F. Medina</h5>
+                                    <span class="date">25 Jan 2022</span>
+                                </div>
+                                <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you</p>
+                                <a href="#" class="reply">Reply Commets</a>
+                            </div>
+                        </div>
+                        <div class="comment-item">
+                            <div class="author-image">
+                                <img src="{% static 'assets/images/news/comment-author-3.jpg' %}" alt="Author">
+                            </div>
+                            <div class="comment-details">
+                                <div class="name-date">
+                                    <h5>Alexzeder Alex</h5>
+                                    <span class="date">25 Jan 2022</span>
+                                </div>
+                                <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete</p>
+                                <a href="#" class="reply">Reply Commets</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment-form-wrap mt-60 wow fadeInUp delay-0-2s">
+                        <h3 class="comment-title mb-55">Send A Message</h3>
+                        <form id="comment-form" class="comment-form" name="comment-form" action="#" method="post">
+                            <div class="row clearfix justify-content-center">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="full-name"><i class="far fa-user"></i></label>
+                                        <input type="text" id="full-name" name="full-name" class="form-control" value="" placeholder="Your Full Name" required>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="email"><i class="far fa-envelope"></i></label>
+                                        <input type="email" id="email" name="email" class="form-control" value="" placeholder="Your Email" required>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <label for="comments"><i class="fas fa-pencil-alt"></i></label>
+                                        <textarea name="comments" id="comments" class="form-control" rows="4" placeholder="Write Message" required></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <button type="submit" class="theme-btn">Send Message</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-9">
+                <div class="blog-sidebar mt-120 rmy-100">
+                    <div class="widget widget-search wow fadeInUp delay-0-2s">
+                        <form action="#">
+                            <input type="text" placeholder="Search" class="searchbox" required>
+                            <button type="submit" class="searchbutton fa fa-search"></button>
+                        </form>
+                    </div>
+                    <div class="widget widget-recent-post wow fadeInUp delay-0-4s">
+                        <h3 class="widget-title">Recent News</h3>
+                        <div class="widget-news-wrap">
+                            <div class="widget-news-item">
+                                <img src="{% static 'assets/images/news/news-widget-1.jpg' %}" alt="News">
+                                <div class="widget-news-content">
+                                    <h5><a href="blog-details.html">Quick Win For Improe Perfor Securitys.</a></h5>
+                                    <span class="date"><a href="#">15 Dec 2021</a></span>
+                                </div>
+                            </div>
+                            <div class="widget-news-item">
+                                <img src="{% static 'assets/images/news/news-widget-2.jpg' %}" alt="News">
+                                <div class="widget-news-content">
+                                    <h5><a href="blog-details.html">Quick Win Imperfora Security Web ses</a></h5>
+                                    <span class="date"><a href="#">15 Dec 2021</a></span>
+                                </div>
+                            </div>
+                            <div class="widget-news-item">
+                                <img src="{% static 'assets/images/news/news-widget-3.jpg' %}" alt="News">
+                                <div class="widget-news-content">
+                                    <h5><a href="blog-details.html">We’ve Got Announce ment Make Rachel</a></h5>
+                                    <span class="date"><a href="#">15 Dec 2021</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="widget widget-category wow fadeInUp delay-0-2s">
+                        <h3 class="widget-title">Category</h3>
+                        <ul class="list-style-two">
+                            <li><a href="#">Business Strategy</a> <span>(20)</span></li>
+                            <li><a href="#">Investment Planning</a> <span>(05)</span></li>
+                            <li><a href="#">Financial Investment</a> <span>(03)</span></li>
+                            <li><a href="#">Banking & Insurance</a> <span>(30)</span></li>
+                            <li><a href="#">Free Consulting</a> <span>(07)</span></li>
+                            <li><a href="#">Meet Our Team</a> <span>(09)</span></li>
+                        </ul>
+                    </div>
+                    <div class="widget widget-tag-cloud wow fadeInUp delay-0-2s">
+                        <h3 class="widget-title">Category</h3>
+                        <div class="tags">
+                            <a href="#">Cleaning</a>
+                            <a href="#">Business</a>
+                            <a href="#">Booking</a>
+                            <a href="#">car</a>
+                            <a href="#">House</a>
+                            <a href="#">Apartment</a>
+                            <a href="#">Washing</a>
+                            <a href="#">Agency</a>
+                            <a href="#">Listing</a>
+                        </div>
+                    </div>
+                    <div class="widget widget-call-action wow fadeInUp delay-0-2s">
+                        <div class="call-action-widget">
+                            <h2>Work Together</h2>
+                            <p>Bur wemust ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt ut labore</p>
+                            <a class="theme-btn style-five btn-circle" href="{% url 'contact' %}">Contact Now <i class="fas fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Blog Details Area End -->
+{% endblock content %}

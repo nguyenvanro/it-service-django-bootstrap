@@ -1,0 +1,225 @@
+{% extends 'base.html' %} {% load static %} {% block content %}
+<!-- Page Banner Start -->
+<section class="page-banner bgs-cover overlay pt-50" style="background-image: url({% static 'assets/images/banner.jpg' %});">
+    <div class="container">
+        <div class="banner-inner">
+            <h1 class="page-title">Blog Standard</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="{% url 'home' %}">Restly</a></li>
+                    <li class="breadcrumb-item active">Blog Standard</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+</section>
+<!-- Page Banner End -->
+
+
+<!-- Blog Page Area Start -->
+<section class="blog-page-area bg-lighter">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="blog-standard-content pt-120 rpt-100 pb-110 rpb-90 pr-15 rpr-0">
+                    <div class="blog-standard-item wow fadeInUp delay-0-2s">
+                        <div class="image">
+                            <img src="{% static 'assets/images/news/blog-standard-1.jpg' %}" alt="Blog Standard">
+                        </div>
+                        <div class="blog-header">
+                            <ul class="post-meta-item mr-15">
+                                <li>
+                                    <i class="far fa-user"></i>
+                                    <a href="#" rel="bookmark">Daniele Custer</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-calendar-alt"></i>
+                                    <a href="#">25 Jan 2022</a>
+                                </li>
+                            </ul>
+                            <div class="social-style-one">
+                                <span>Share Now</span>
+                                <a href="http://facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                <a href="http://twitter.com/"><i class="fab fa-twitter"></i></a>
+                                <a href="https://google.com/"><i class="fab fa-google-plus-g"></i></a>
+                            </div>
+                        </div>
+                        <h3><a href="{% url 'blog-detail' %}">Monthly Web Development Update Complexity Over HTTPS, And Push Notifications</a></h3>
+                        <p>But we ipsum dolor sit amet, consectetur adipisicing elit sed eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor reprehenderit</p>
+                        <a href="{% url 'blog-detail' %}" class="theme-btn">Read More</a>
+                    </div>
+                    <div class="blog-standard-item wow fadeInUp delay-0-2s">
+                        <div class="image video-blog">
+                            <img src="{% static 'assets/images/news/blog-standard-2.jpg' %}" alt="Blog Standard">
+                            <a href="https://www.youtube.com/watch?v=9Y7ma241N8k" class="mfp-iframe video-play"><i class="fas fa-play"></i></a>
+                        </div>
+                        <div class="blog-header">
+                            <ul class="post-meta-item mr-15">
+                                <li>
+                                    <i class="far fa-user"></i>
+                                    <a href="#" rel="bookmark">Daniele Custer</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-calendar-alt"></i>
+                                    <a href="#">25 Jan 2022</a>
+                                </li>
+                            </ul>
+                            <div class="social-style-one">
+                                <span>Share Now</span>
+                                <a href="http://facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                <a href="http://twitter.com/"><i class="fab fa-twitter"></i></a>
+                                <a href="https://google.com/"><i class="fab fa-google-plus-g"></i></a>
+                            </div>
+                        </div>
+                        <h3><a href="{% url 'blog-detail' %}">Monthly Web Development Update Complexity Over HTTPS, And Push Notifications</a></h3>
+                        <p>But we ipsum dolor sit amet, consectetur adipisicing elit sed eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor reprehenderit</p>
+                        <a href="{% url 'blog-detail' %}" class="theme-btn">Read More</a>
+                    </div>
+                    <div class="blog-standard-item quote-blog wow fadeInUp delay-0-2s">
+                        <h3><a href="{% url 'blog-detail' %}">Meet Smashing Book New Frontiers In Web For Better Enge Tools Techniques.</a></h3>
+                    </div>
+                    <div class="blog-standard-item without-image wow fadeInUp delay-0-2s">
+                        <div class="blog-header">
+                            <ul class="post-meta-item mr-15">
+                                <li>
+                                    <i class="far fa-user"></i>
+                                    <a href="#" rel="bookmark">Daniele Custer</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-calendar-alt"></i>
+                                    <a href="#">25 Jan 2022</a>
+                                </li>
+                            </ul>
+                            <div class="social-style-one">
+                                <span>Share Now</span>
+                                <a href="http://facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                <a href="http://twitter.com/"><i class="fab fa-twitter"></i></a>
+                                <a href="https://google.com/"><i class="fab fa-google-plus-g"></i></a>
+                            </div>
+                        </div>
+                        <h3><a href="{% url 'blog-detail' %}">Taking A Look At State Of Progressive Images And User Perception Weathers</a></h3>
+                        <p>But we ipsum dolor sit amet, consectetur adipisicing elit sed eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor reprehenderit</p>
+                        <a href="{% url 'blog-detail' %}" class="theme-btn">Read More</a>
+                    </div>
+                    <div class="blog-standard-item wow fadeInUp delay-0-2s">
+                        <div class="image">
+                            <img src="{% static 'assets/images/news/blog-standard-3.jpg' %}" alt="Blog Standard">
+                        </div>
+                        <div class="blog-header">
+                            <ul class="post-meta-item mr-15">
+                                <li>
+                                    <i class="far fa-user"></i>
+                                    <a href="#" rel="bookmark">Daniele Custer</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-calendar-alt"></i>
+                                    <a href="#">25 Jan 2022</a>
+                                </li>
+                            </ul>
+                            <div class="social-style-one">
+                                <span>Share Now</span>
+                                <a href="http://facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                <a href="http://twitter.com/"><i class="fab fa-twitter"></i></a>
+                                <a href="https://google.com/"><i class="fab fa-google-plus-g"></i></a>
+                            </div>
+                        </div>
+                        <h3><a href="{% url 'blog-detail' %}">Monthly Web Development Update Complexity Over HTTPS, And Push Notifications</a></h3>
+                        <p>But we ipsum dolor sit amet, consectetur adipisicing elit sed eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor reprehenderit</p>
+                        <a href="{% url 'blog-detail' %}" class="theme-btn">Read More</a>
+                    </div>
+                    <ul class="pagination flex-wrap">
+                        <li class="page-item disabled">
+                            <span class="page-link"><i class="fas fa-chevron-left"></i></span>
+                        </li>
+                        <li class="page-item active">
+                            <span class="page-link">
+                                01
+                                <span class="sr-only">(current)</span>
+                            </span>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">02</a></li>
+                        <li class="page-item"><a class="page-link" href="#">03</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#"><i class="fas fa-chevron-right"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-9">
+                <div class="blog-sidebar mt-120 rmy-100">
+                    <div class="widget widget-search wow fadeInUp delay-0-2s">
+                        <form action="#">
+                            <input type="text" placeholder="Search" class="searchbox" required>
+                            <button type="submit" class="searchbutton fa fa-search"></button>
+                        </form>
+                    </div>
+                    <div class="widget widget-recent-post wow fadeInUp delay-0-4s">
+                        <h3 class="widget-title">Recent News</h3>
+                        <div class="widget-news-wrap">
+                            <div class="widget-news-item">
+                                <img src="{% static 'assets/images/news/news-widget-1.jpg' %}" alt="News">
+                                <div class="widget-news-content">
+                                    <h5><a href="{% url 'blog-detail' %}">Quick Win For Improe Perfor Securitys.</a></h5>
+                                    <span class="date"><a href="#">15 Dec 2021</a></span>
+                                </div>
+                            </div>
+                            <div class="widget-news-item">
+                                <img src="{% static 'assets/images/news/news-widget-2.jpg' %}" alt="News">
+                                <div class="widget-news-content">
+                                    <h5><a href="{% url 'blog-detail' %}">Quick Win Imperfora Security Web ses</a></h5>
+                                    <span class="date"><a href="#">15 Dec 2021</a></span>
+                                </div>
+                            </div>
+                            <div class="widget-news-item">
+                                <img src="{% static 'assets/images/news/news-widget-3.jpg' %}" alt="News">
+                                <div class="widget-news-content">
+                                    <h5><a href="{% url 'blog-detail' %}">We’ve Got Announce ment Make Rachel</a></h5>
+                                    <span class="date"><a href="#">15 Dec 2021</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="widget widget-category wow fadeInUp delay-0-2s">
+                        <h3 class="widget-title">Category</h3>
+                        <ul class="list-style-two">
+                            <li><a href="#">Business Strategy</a> <span>(20)</span></li>
+                            <li><a href="#">Investment Planning</a> <span>(05)</span></li>
+                            <li><a href="#">Financial Investment</a> <span>(03)</span></li>
+                            <li><a href="#">Banking & Insurance</a> <span>(30)</span></li>
+                            <li><a href="#">Free Consulting</a> <span>(07)</span></li>
+                            <li><a href="#">Meet Our Team</a> <span>(09)</span></li>
+                        </ul>
+                    </div>
+                    <div class="widget widget-tag-cloud wow fadeInUp delay-0-2s">
+                        <h3 class="widget-title">Category</h3>
+                        <div class="tags">
+                            <a href="#">Cleaning</a>
+                            <a href="#">Business</a>
+                            <a href="#">Booking</a>
+                            <a href="#">car</a>
+                            <a href="#">House</a>
+                            <a href="#">Apartment</a>
+                            <a href="#">Washing</a>
+                            <a href="#">Agency</a>
+                            <a href="#">Listing</a>
+                        </div>
+                    </div>
+                    <div class="widget widget-call-action wow fadeInUp delay-0-2s">
+                        <div class="call-action-widget">
+                            <h2>Work Together</h2>
+                            <p>Bur wemust ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt ut labore</p>
+                            <a class="theme-btn style-five btn-circle" href="{% url 'contact' %}">Contact Now <i class="fas fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Blog Page Area End -->
+
+{% endblock content %}

@@ -1,0 +1,73 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zxx">
+
+
+<head>
+    <!--====== Required meta tags ======-->
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--====== Title ======-->
+    <title>Restly - IT Solutions & Technology HTML Template || Home One</title>
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="{% static 'assets/images/favicon.png' %}" type="image/x-icon">
+    <!--====== Google Fonts ======-->
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&amp;family=Oswald:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+
+    <!--====== Font Awesome ======-->
+    <link rel="stylesheet" href="{% static 'assets/css/font-awesome-5.9.0.css' %}">
+    <!--====== Bootstrap ======-->
+    <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}">
+    <!--====== Magnific Popup ======-->
+    <link rel="stylesheet" href="{% static 'assets/css/magnific-popup.css' %}">
+    <!--====== Falticon ======-->
+    <link rel="stylesheet" href="{% static 'assets/css/flaticon.css' %}">
+    <!--====== Animate ======-->
+    <link rel="stylesheet" href="{% static 'assets/css/animate.css' %}">
+    <!--====== Slick ======-->
+    <link rel="stylesheet" href="{% static 'assets/css/slick.css' %}">
+    <!--====== Main Style ======-->
+    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+
+</head>
+
+<body>
+    <div class="page-wrapper">
+
+        <!-- Preloader -->
+        <div class="preloader">
+            <div class="theme-loader"></div>
+        </div>
+
+        {% include 'header.html' %} {% block content %} {% endblock content %} {% include 'footer.html' %}
+
+    </div>
+    <!--End pagewrapper-->
+
+    <!-- Scroll Top Button -->
+    <button class="scroll-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></button>
+
+
+    <!--====== Jquery ======-->
+    <script src="{% static 'assets/js/jquery-3.6.0.min.js' %}"></script>
+    <!--====== Bootstrap ======-->
+    <script src="{% static 'assets/js/bootstrap.min.js' %}"></script>
+    <!--====== Appear Js ======-->
+    <script src="{% static 'assets/js/appear.min.js' %}"></script>
+    <!--====== Slick ======-->
+    <script src="{% static 'assets/js/slick.min.js' %}"></script>
+    <!--====== Magnific Popup ======-->
+    <script src="{% static 'assets/js/jquery.magnific-popup.min.js' %}"></script>
+    <!--====== Isotope ======-->
+    <script src="{% static 'assets/js/isotope.pkgd.min.js' %}"></script>
+    <!--  WOW Animation -->
+    <script src="{% static 'assets/js/wow.js' %}"></script>
+    <!-- Custom script -->
+    <script src="{% static 'assets/js/script.js' %}"></script>
+
+</body>
+
+</html>
